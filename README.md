@@ -85,7 +85,7 @@ The project includes several "kelet" (input) files to test success and failure s
 | :--- | :--- | :--- | :--- |
 | **kelet1** | Success | Correct macro expansion and object file generation. | `kelet1.am`, `kelet1.ob` |
 | **kelet2** | Failure | Fails due to extra words following the `mcro` name. | `kelet2faill.png` |
-| **kelet3** | Success | Success, but generates a warning for labels preceding `.extern`. | `kelet3Warn.png` |
+| **kelet3** | Success | Success, but generates a warning for labels preceding `.extern`. | `kelet3Warn.png`, `kelet3.am`, `kelet3.ob`  |
 | **kelet4** | Success | Full output: generates `.ob`, `.ent` (entries), and `.ext` (externals). | `kelet4.ob`, `.ext`, `.ent` |
 | **kelet5** | Failure | Fails due to a duplicate macro name in the file. | `kelet5fail.png` |
 | **kelet6** | Failure | Fails due to duplicate macro/label definitions. | `kelet6fail.png` |
