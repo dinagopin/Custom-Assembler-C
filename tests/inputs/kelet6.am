@@ -1,0 +1,4 @@
+hey: mov #3, MW[r3][   r5  ]
+prn #45
+jmp hey
+stop
