@@ -17,7 +17,7 @@ This project is an implementation of a **Two-Pass Assembler** for a symbolic ass
 * **Base-4 Mapping:** 00=a, 01=b, 10=c, 11=d.
 
 ---
-##  ✅ Success vs. ❌ Failure Criteria
+##  Success vs.  Failure Criteria
 
 ###  Successful Run
 A run is successful if the code is logically sound and fits within the memory limit.
@@ -37,7 +37,7 @@ If an error occurs, the process stops, the **line number** is printed, and **no 
 
 ---
 
-## 🚀 How to Run
+## How to Run
 This project requires a **Linux environment** with `gcc` and `make`.
 
 *Note: This project adheres to **ANSI C** standards using `-ansi -Wall -pedantic` flags.*
@@ -67,7 +67,7 @@ Run the assembler by providing the path to a single input file (without the exte
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 The project is modularized to handle different stages of the assembly process:
 
@@ -94,7 +94,7 @@ The project is modularized to handle different stages of the assembly process:
 
 ---
 
-## 🧪 Detailed Test Cases
+## Detailed Test Cases
 The project includes several "kelet" (input) files to test success and failure scenarios. Use these to verify your local output.
 
 | Input File | Type | Expected Behavior | Reference |
